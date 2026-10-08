@@ -36,7 +36,7 @@ class ArrayCreatorImplTest {
         String path = "src/test/resources/data/test_data.txt";
         List<IntegerArray> arrays = creator.createArraysFromFile(path);
         assertNotNull(arrays);
-        assertTrue(arrays.size() > 0);
+        assertTrue(!arrays.isEmpty());
     }
 
     @Test
