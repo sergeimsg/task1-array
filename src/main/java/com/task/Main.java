@@ -2,7 +2,7 @@ package com.task;
 
 
 import com.task.creator.ArrayCreator;
-import com.task.creator.ArrayCreatorImpl;
+import com.task.creator.impl.ArrayCreatorImpl;
 import com.task.entity.IntegerArray;
 import com.task.exception.ArrayUserException;
 import com.task.factory.ArrayFactory;

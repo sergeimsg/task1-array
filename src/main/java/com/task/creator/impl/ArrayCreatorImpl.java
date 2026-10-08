@@ -1,5 +1,6 @@
-package com.task.creator;
+package com.task.creator.impl;
 
+import com.task.creator.ArrayCreator;
 import com.task.entity.IntegerArray;
 import com.task.exception.ArrayUserException;
 import com.task.factory.ArrayFactory;
